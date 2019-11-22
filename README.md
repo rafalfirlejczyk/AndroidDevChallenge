@@ -29,13 +29,15 @@ The whole ML process con be presented as follows:
 
 
 
-Steps to be done until May 2020.
+Steps to be done until May 1, 2020.
 
-7. Converting the model to TFLite using TFLite converter
-8. Developping an Android application using Android NN API (not SNPE from Qualcomm). The app should run inference on camera image (just taken, not on saved or hard coded images) and classify it according the calculated class probability.
-9. Testing the solution life.
+7. Retraining and converting the model to TFLite using TFLite converter - January 2019
+8. Developping an Android application using Android NN API (not SNPE from Qualcomm). The app should run inference on camera image (just taken, not on saved or hard coded images) and classify it according the calculated class probability. - February - April 2020
+9. Testing the solution life. - April 2020
 
 
+# About me
 
+I am ML and mobile device enthusiast. I developped and built the very low power device based on ARM microcontroller from Ambiq Micro implementing a simple neural network for activity recognition. I implemented also two computer vision projects for Android. 
 
 
