@@ -22,18 +22,18 @@ https://medium.com/@firlejczyk/computer-vision-application-on-mobile-device-392a
 5. Running inference on device.
 For the simple test on the device I used the qualcomm demo application published in the Qualcomm tutorial:
 https://developer.qualcomm.com/docs/snpe/android_tutorial.html
+It can classify the image which is saved on the device and hard coded in the application. Typical demo app.
 6. Results
 Achieved accuracy was about 90-92%. Inference time on CPU took about 1s, on GPU about 300ms and on DSP about 60ms.
 The whole ML process con be presented as follows:
 
 
 
-
-
 Steps to be done until May 2020.
 
-7. Converting the model to TFLite to become HW agnostic
-8. Developping an Android application using Android NN API (not SNPE from Qualcomm). The app should run inference on camera image (jus taken) and classify it according the calculated class probability.
+7. Converting the model to TFLite using TFLite converter
+8. Developping an Android application using Android NN API (not SNPE from Qualcomm). The app should run inference on camera image (just taken, not on saved or hard coded images) and classify it according the calculated class probability.
+9. Testing the solution life.
 
 
 
