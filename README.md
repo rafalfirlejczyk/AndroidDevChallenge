@@ -9,7 +9,7 @@ For many people and for some professions, the quality of the pictures taken is c
 
 # Bringing my plan to life.
 
-The application classifying the quality of "just taken" image should run on Android smartphones. It should implement Machine Learning model and run the inference direct on the devices ("in the edge"). It should use TFLite model and implement Android NN API (if possible) There are several steps in this project. Steps 1 to 5 has already been done. They can however be also reworked
+The application classifying the quality of "just taken" image should run on Android smartphones. It should implement Machine Learning model and run the inference direct on the devices ("in the edge"). It should use TFLite model and implement Android NN API (if possible) There are several steps in this project. Steps 1 to 6 has already been done. They can however be also reworked
 1. Concept. 
     Discussion how to qualify good or bad quality image. 
     Definition of possible classes. Three classes chosen. Good Quality Image, Noisy Image and Blurred Image
@@ -22,7 +22,7 @@ https://medium.com/@firlejczyk/computer-vision-application-on-mobile-device-392a
 5. Running inference on device.
 For the simple test on the device I used the qualcomm demo application published in the Qualcomm tutorial:
 https://developer.qualcomm.com/docs/snpe/android_tutorial.html
-5. Results
+6. Results
 Achieved accuracy was about 90-92%. Inference time on CPU took about 1s, on GPU about 300ms and on DSP about 60ms.
 The whole ML process con be presented as follows:
 
@@ -31,8 +31,9 @@ The whole ML process con be presented as follows:
 
 
 Steps to be done until May 2020.
-6 Converting the model to TFLite to become HW agnostic
-7 Developping an Android application using Android NN API (not SNPE from Qualcomm). The app should run inference on camera image (jus taken) and classify it according the calculated class probability.
+
+7. Converting the model to TFLite to become HW agnostic
+8. Developping an Android application using Android NN API (not SNPE from Qualcomm). The app should run inference on camera image (jus taken) and classify it according the calculated class probability.
 
 
 
