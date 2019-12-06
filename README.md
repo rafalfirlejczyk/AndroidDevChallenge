@@ -27,6 +27,7 @@ It can classify the image which is saved on the device and hard coded in the app
 Achieved accuracy was about 90-92%. Inference time on CPU took about 1s, on GPU about 300ms and on DSP about 60ms.
 The whole ML process con be presented as follows:
 
+Update from 06.12.2019 - Instead of working as an application, the image quality assessment process could be executed as a service and even integrated into the operating system. The user (if agreed) will receive a picture check each time after shooting, regardless of which application the camera uses
 
 
 Steps to be done until May 1, 2020.
